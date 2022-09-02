@@ -1,21 +1,22 @@
 <html>
-
   <head>
-    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script type="text/javascript" src="script.js"></script>
   </head>
-  <body>
-    <div>
-    <input type="text" id="input1" class="inputText">
-    <select id="select1">
-      <option value="+">+</option>
-      <option value="-">-</option>
-      <option value="*">*</option>
-      <option value="/">/</option>
-    </select>
-    <input type="text" id="input2" class="inputText">
-    </div>
-    <button id="button1" onClick="buttonClickHandler();">Вычислить</button>
-    <textarea id="results"></textarea>
+  <body >
+  	<div class="divStyle">
+	    <div class="divStyle">
+		    <input type="text" id="input1" class="inputText">
+		    <select id="select1">
+		      <option value="+">+</option>
+		      <option value="-">-</option>
+		      <option value="*">*</option>
+		      <option value="/">/</option>
+		    </select>
+		    <input type="text" id="input2" class="inputText">
+	    </div>
+	    <button class="button" id="button" onClick="buttonClickHandler();">Вычислить</button>
+	    <textarea id="results" ></textarea>
+	</div>
   </body>
 </html>
