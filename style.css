@@ -1,0 +1,59 @@
+.button{
+	display:block;
+	widht:45%;
+	margin:10px auto 10px auto;
+	border-style: dashed;
+	border-radius: 15px;
+	border-color: red;
+	background-color: lightgreen;
+}
+
+.divStyle{
+	widht:100%;
+	margin:10px;
+	background-color: lightgreen;
+	border-radius: 10px;
+}
+
+.displayElement{
+	display:block;
+}
+
+.inputText{
+	width:40%;
+	margin:10px auto 10px auto;
+	border-style: dashed;
+	border-radius: 15px;
+	border-color: red;
+	background-color: lightgreen;
+}
+
+#results{
+	width:100%;
+	border-style: dashed;
+	border-radius: 15px;
+	border-color: red;
+	background-color: lightgreen;
+}
+
+.raw{
+	float:right;
+}
+
+#select1{
+	
+	width:10%;
+	margin: 10px auto 10px auto;
+	border-style: dashed;
+	border-radius: 15px;
+	border-color: red;
+	background-color: lightgreen;
+}
+
+#input1{
+	float:left;
+}
+
+#input2{
+	float:right;
+}
