@@ -3,14 +3,6 @@ function buttonClickHandler(){
 
 	let value1 = document.getElementById("input1").value;
 	let value2 = document.getElementById("input2").value;
-	
-	if(value1 != /[+-]?([0-9]*[.])?[0-9]+/ || value2 != /[+-]?([0-9]*[.])?[0-9]+/)
-	{
-		let results = "Incorrect values entered";
-		console.log(results);
-		document.getElementById("results").innerText = results;
-		return;
-	}
 
 	value1 = parseFloat(value1);
     value2 = parseFloat(value2);
